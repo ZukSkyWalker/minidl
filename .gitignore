@@ -133,3 +133,8 @@ dmypy.json
 # draw io
 **.bkp
 **.dtmp
+
+
+#model
+**.weights
+**.cfg
