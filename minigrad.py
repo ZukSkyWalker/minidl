@@ -60,11 +60,11 @@ class Value:
   def __radd__(self, other): # other + self
     return self + other
   
-  # def __rsub__(self, other): # other - self
-  #   return -self + other
+  def __rsub__(self, other): # other - self
+    return -self + other
 
-  # def __rtruediv__(self, other): # other / self
-  #   return other * self**-1
+  def __rtruediv__(self, other): # other / self
+    return other * self**-1
 
   def tanh(self):
     x = self.data
